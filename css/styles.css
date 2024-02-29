@@ -75,7 +75,34 @@ table {
 ul {  
   padding-top: 100px;
   list-style: none;
+ 
+}
+
+.cajas{
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
 
+  
+
+.cajas{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.personaje{
+  border-radius: 10px 10px;
+  background-color: white;
+  border:1px solid gray;
+  padding: 10px;
+  background-color:white;
+}
+.personaje:hover{
+  cursor: pointer;
+  transform:scale(1.1);
+  transition: all 1s ease;
+}
